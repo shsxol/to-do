@@ -58,3 +58,7 @@ if (x==1){
 // ternary operator
 let result = x ===1 ? "x is 1":"x is not 1";
 
+for ( let i=0;i<10;i++)
+{
+    console.log(i);
+}
