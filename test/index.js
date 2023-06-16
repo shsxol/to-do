@@ -62,3 +62,23 @@ for ( let i=0;i<10;i++)
 {
     console.log(i);
 }
+
+//ES5 style
+function add(a,b)
+{
+    console.log(a+b);
+}
+add(1,2);
+
+function area(a,b)
+{
+    console.log(a*b)
+}
+area(5,4);
+
+
+// ES6 style (arrow function)
+const sum=(a,b) => {
+    console.log(a+b);
+}
+sum(3,2);
