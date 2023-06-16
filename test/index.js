@@ -24,6 +24,10 @@ const y=2;
 if (x==1){
     console.log("x is 1");
 }
+    else{
+        console.log("x is not 1")
+    }
+
 if (x===1 && y===2){
     console.log("&& operator is tested");
 }
@@ -43,4 +47,14 @@ if (!x)
     console.log("x is not true");
 }
 
+
+
+if (x==1){
+    console.log("x is 1");
+}
+    else{
+        console.log("x is not 1")
+    }
+// ternary operator
+let result = x ===1 ? "x is 1":"x is not 1";
 
