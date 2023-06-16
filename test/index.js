@@ -38,5 +38,9 @@ if (x!=2)
     console.log("!= operator is tested");
 }
 
+if (!x)
+{
+    console.log("x is not true");
+}
 
 
