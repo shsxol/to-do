@@ -20,4 +20,19 @@ console.log(l)
 
 console.log(cars.length)
 console.log(cars.sort())
+console.log(cars.push("lol"))
+console.log(cars)
 
+console.log(cars.pop())
+console.log(cars)
+
+cars.map(d=> console.log(d));
+
+const myf =(data) => {
+
+    console.log(data)
+}
+
+cars.forEach(myf)
+
+cars.map(d=> console.log(d))
