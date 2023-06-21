@@ -36,3 +36,23 @@ const myf =(data) => {
 cars.forEach(myf)
 
 cars.map(d=> console.log(d))
+
+// user model
+const user={
+    firstname: "john",
+    lastname : "doe",
+    email : "johndoe@gmail.com",
+    phone: "123456789",
+    password: "123456",
+};
+
+// user list
+const{password, phone , ...rest} = user;
+console.log({rest});
+
+const {first, ...other}= user;
+console.log(other)
+
+const myFunction = (data) => {
+    return data.toUpperCase();
+  };
