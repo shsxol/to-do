@@ -4,7 +4,7 @@ const mailOptions = {
     from: '"smile shrestha 👻" <shrestha.smile31@gmail.com>', // sender address
     to: "killaaasmile01@gmail.com, shaktirajbhandari@gmail.com", // list of receivers
     subject: "Hello ✔", // Subject line
-    text: "Hello world?", // plain text body
+    text: "", // plain text body
     html: "<b>Hello world?</b>", // html body
 }
 const transporter = nodemailer.createTransport({
