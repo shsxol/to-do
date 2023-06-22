@@ -1,6 +1,6 @@
 const CC = require('currency-converter-lt')
 
-let currencyConverter = new CC({from:"USD", to:"NPR" })
+let currencyConverter = new CC({from:"EUR", to:"NPR" })
 
 
 currencyConverter.convert().then((response) => {
